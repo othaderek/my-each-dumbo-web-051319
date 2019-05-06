@@ -4,7 +4,7 @@ def my_each(arr) # Declare method
     yield(arr[i]) # Will yield the specific iteration to a seperate block
     i += 1 # Increments up by one
   end
-  arr # Returns the arr array.
+  p arr # Returns the arr array.
 end
 
 my_each(arr) do |name| # This is the yielded block
