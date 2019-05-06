@@ -8,7 +8,3 @@ def my_each(arr) # Declare method
   arr # Returns the arr array.
 end
 
-my_each(arr) do |name| # This is the yielded block
-  puts name # This is the block body
-end
-
